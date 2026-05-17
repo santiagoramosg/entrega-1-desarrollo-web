@@ -1,0 +1,66 @@
+{
+  "language_select": "Select Language",
+  "bar": "Wizardry academy for cats \nMEW-arts",
+  "title": "Welcome",
+  "description": "This is a page in English.",
+  "button": "Submit",
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact",
+    "footer": "all kittens shown on the page are graduates of the MEW-arts cat university\nplease do not try to teach them magic by your own"
+  },
+  "paragraph": {
+    "p1":"Welcome to the Feline Arcane Academy The first magic school exclusively for cats with suspicious abilities.",
+    "p2":"about us:",
+    "p3":"Since 1487 we have been training cats in advanced magical arts such as:",
+    "p4_1":"Disappearance of important objects",
+    "p4_2":"Night teleportation at 3 AM",
+    "p4_3":"Summoning chaos on desks",
+    "p4_4":"Mental control of humans to get food",
+    "p4_5":"Furniture destruction spells regardless of their material",
+    "p4_6":"And much more...",
+    "p5":"Our academy has graduated over 12,000 feline wizards around the world."
+  },
+  "paragraph2": {
+    "p1":"featured teachers:",
+    "p2":"professor mao",
+    "p2_1":"specialist in food and bottle cap disappearances ",
+    "p3":"professor fabritsio",
+    "p3_1":"expert in furniture destruction spells"
+  },
+  "paragraph3": {
+    "p1":"Popular Courses",
+    "p2":"Basic Magic for Kittens",
+    "p2_title":"Learn:",
+    "p2_1":"Hypnotic meows",
+    "p2_2":"Emotional invisibility",
+    "p2_3":"How to elegantly ignore humans",
+    "p3":"Advanced Feline Necromancy",
+    "p3_title":"Includes:",
+    "p3_1":"Reviving destroyed toys",
+    "p3_2":"The 4 AM ritual",
+    "p3_3":"Summoning demons under the bed",
+    "p4":"Snack Alchemy",
+    "p4_1":"Transform any human food into \"cat food\"."
+  },
+  "paragraph4": {
+    "p1":"Testimonials",
+    "p2":"“My cat used to sleep normally. Now he summons storms when I don't open the door.”",
+    "p2_author":"— Carlos, confused human",
+    "p3":"“Excellent academy. I lost three curtains and my mental stability.”",
+    "p3_author":"— Laura, proud victim"
+  },
+  "paragraph5": {
+    "p1":"Admission Requirements",
+    "p2":"Know how to meow",
+    "p3":"Have dropped off at least one object off the table",
+    "p4":"Have dubious intentions"
+  },
+  "paragraph6": {
+    "p1":"Footer",
+    "p2":"📍 Secret Tower behind the sofa",
+    "p3":"📞 666-MIAU-MAGIC",
+    "p4":"✉ contacto@academiagatuna.com"
+  }
+}
