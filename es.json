@@ -1,66 +1,98 @@
 {
-  "bar": "Academia de magia para gatos \nMEW-arts",
-  "language_select": "Seleccionar idioma",
-  "title": "Bienvenido",
-  "description": "Esta es una página en español.",
-  "button": "Enviar",
-  "navbar": {
-    "home": "Inicio",
-    "about": "Nosotros",
-    "contact": "Contacto",
-    "footer": "Todos los gatitos mostrados en la página son graduados de la universidad de los gatos MEW-arts\npor favor no intentes enseñarles magia por tu cuenta"
-  },
-  "paragraph": {
-    "p1":"Bienvenido a la Academia Arcana Felina La primera escuela de magia exclusivamente para gatos con habilidades sospechosas.",
-    "p2":"sobre nosotros:",
-    "p3":"Desde 1487 entrenamos gatos en artes mágicas avanzadas como:",
-    "p4_1":"Desaparición de objetos importantes",
-    "p4_2":"Teletransportación nocturna a las 3 AM",
-    "p4_3":"Invocación de caos en escritorios",
-    "p4_4":"Control mental de humanos para obtener comida",
-    "p4_5":"Hechizos de destrucción de muebles sin importar su material",
-    "p4_6":"Y mucho más...",
-    "p5":"Nuestra academia ha graduado más de 12.000 magos felinos alrededor del mundo."
-  },
-  "paragraph2": {
-    "p1":"profesores destacados:",
-    "p2":"profesora mao",
-    "p2_1":"especialista en la desaparición de alimentos y tapas de botellas",
-    "p3":"profesor fabritsio",
-    "p3_1":"experto en hechizos de destrucción de muebles"
-  },
-  "paragraph3": {
-    "p1":"Cursos populares",
-    "p2":"Magia Básica para Gatitos",
-    "p2_title":"Aprende:",
-    "p2_1":"Maullidos hipnóticos",
-    "p2_2":"Invisibilidad emocional",
-    "p2_3":"Cómo ignorar humanos elegantemente",
-    "p3":"Nigromancia Felina Avanzada",
-    "p3_title":"Incluye:",
-    "p3_1":"Revivir juguetes destruidos",
-    "p3_2":"Ritual de las 4 AM",
-    "p3_3":"Invocación de demonios debajo de la cama",
-    "p4":"Alquimia de comida",
-    "p4_1":"Transforma cualquier alimento humano en \"comida para gato\"."
-  },
-  "paragraph4": {
-    "p1":"Testimonios",
-    "p2":"“Mi gato antes dormía normal. Ahora invoca tormentas cuando no le abro la puerta.”",
-    "p2_author":"— Carlos, humano confundido",
-    "p3":"“Excelente academia. Perdí tres cortinas y mi estabilidad mental.”",
-    "p3_author":"— Laura, víctima orgullosa"
-  },
-  "paragraph5": {
-    "p1":"Requisitos de admisión",
-    "p2":"Saber maullar",
-    "p3":"Haber tumbado al menos un objeto de una mesa",
-    "p4":"Tener intenciones dudosas"
-  },
-  "paragraph6": {
-    "p1":"Pie de página",
-    "p2":"📍 Torre Secreta detrás del sofá",
-    "p3":"📞 666-MIAU-MAGIA",
-    "p4":"✉ contacto@academiagatuna.com"
+	"page1": {
+		"bar": "Academia de magia para gatos \nMEW-arts",
+		"language_select": "Seleccionar idioma",
+		"title": "Bienvenido",
+		"description": "Esta es una página en español.",
+		"button": "inscribete",
+		"navbar": {
+			"home": "Inicio",
+			"about": "Nosotros",
+			"contact": "Contacto",
+			"footer": "Todos los gatitos mostrados en la página son graduados de la universidad de los gatos MEW-arts\npor favor no intentes enseñarles magia por tu cuenta"
+		},
+		"paragraph": {
+			"p1": "Bienvenido a la Academia Arcana Felina La primera escuela de magia exclusivamente para gatos con habilidades sospechosas.",
+			"p2": "sobre nosotros:",
+			"p3": "Desde 1487 entrenamos gatos en artes mágicas avanzadas como:",
+			"p4_1": "Desaparición de objetos importantes",
+			"p4_2": "Teletransportación nocturna a las 3 AM",
+			"p4_3": "Invocación de caos en escritorios",
+			"p4_4": "Control mental de humanos para obtener comida",
+			"p4_5": "Hechizos de destrucción de muebles sin importar su material",
+			"p4_6": "Y mucho más...",
+			"p5": "Nuestra academia ha graduado más de 12.000 magos felinos alrededor del mundo."
+		},
+		"paragraph2": {
+			"p1": "profesores destacados:",
+			"p2": "profesora mao",
+			"p2_1": "especialista en la desaparición de alimentos y tapas de botellas",
+			"p3": "profesor fabritsio",
+			"p3_1": "experto en hechizos de destrucción de muebles"
+		},
+		"paragraph3": {
+			"p1": "Cursos populares",
+			"p2": "Magia Básica para Gatitos",
+			"p2_title": "Aprende:",
+			"p2_1": "Maullidos hipnóticos",
+			"p2_2": "Invisibilidad emocional",
+			"p2_3": "Cómo ignorar humanos elegantemente",
+			"p3": "Nigromancia Felina Avanzada",
+			"p3_title": "Incluye:",
+			"p3_1": "Revivir juguetes destruidos",
+			"p3_2": "Ritual de las 4 AM",
+			"p3_3": "Invocación de demonios debajo de la cama",
+			"p4": "Alquimia de comida",
+			"p4_1": "Transforma cualquier alimento humano en \"comida para gato\"."
+		},
+		"paragraph4": {
+			"p1": "Testimonios",
+			"p2": "“Mi gato antes dormía normal. Ahora invoca tormentas cuando no le abro la puerta.”",
+			"p2_author": "— Carlos, humano confundido",
+			"p3": "“Excelente academia. Perdí tres cortinas y mi estabilidad mental.”",
+			"p3_author": "— Laura, víctima orgullosa"
+		},
+		"paragraph5": {
+			"p1": "Requisitos de admisión",
+			"p2": "Saber maullar",
+			"p3": "Haber tumbado al menos un objeto de una mesa",
+			"p4": "Tener intenciones dudosas"
+		},
+		"paragraph6": {
+			"p1": "Pie de página",
+			"p2": "📍 Torre Secreta detrás del sofá",
+			"p3": "📞 666-MIAU-MAGIA",
+			"p4": "✉ contacto@academiagatuna.com"
+		}
+	},
+
+  "page2": {
+    "paragraph": {
+      "p1": "Formulario de inscripción",
+      "p2": "Informacion personal de el dueño del gato",
+      "p3": "Nombre",
+      "p4": "Apellido",
+      "p5": "Correo electrónico",
+      "p6": "Número de teléfono",
+      "p7": "Información del gato",
+      "p8": "Nombre del gato",
+      "p9": "Edad del gato",
+      "p10": "Raza del gato",
+      "p11": "¿Por qué quieres inscribir a tu gato en la academia?",
+      "p12": "Enviar"
+    },
+    "address":{
+      "p1":"Departamento",
+      "p2":"Municipio",
+      "p3":"Via principal",
+      "p3_1":"Número",
+      "p3_2":"Complemento",
+      "p3_3":"Bis",
+      "p3_4":"Placa",
+      "p4":"Dirección seleccionada",
+      "p5":"limpiar",
+      "p6":"Enviar dirección"
+
+    }
   }
 }

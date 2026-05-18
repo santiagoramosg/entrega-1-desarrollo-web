@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Document</title>
+
+		<style>
+            .form{
+                height: 60px;
+                font-size: 20px;
+            }
+		</style>
+	</head>
+
+	<body>
+		<script src="idioma.js"></script>
+		<header class="navbar">
+			<h1 data-i18n="page1.bar"></h1>
+			<div class="lang-selector">
+				<label for="langSelect" data-i18n="page1.language_select"></label>
+				<select id="langSelect">
+					<option value="" disabled selected>Seleccionar idioma</option>
+					<option value="es">Español</option>
+					<option value="en">English</option>
+				</select>
+			</div>
+		</header>
+
+		<section>
+			<h1 data-i18n="page2.paragraph.p1"></h1>
+			<br />
+			<h2 data-i18n="page2.paragraph.p2"></h2>
+
+			<div class="columnas">
+				<div class="columna">
+					<label data-i18n="page2.address.p1"></label>
+					<select id="langSelect">
+						<option value="" disabled selected></option>
+						<option>lorem ipsum</option>
+					</select>
+				</div>
+
+				<div class="columna">
+					<input class="form" type="text" />
+				</div>
+
+				<div class="columna">
+					<label>texto</label>
+					<select>
+						<option>casilla seleccion</option>
+					</select>
+				</div>
+			</div>
+
+			<!-- Textos de abajo -->
+			<div class="textos-footer">
+				<p>texto</p>
+				<p>texto</p>
+				<p>texto</p>
+			</div>
+		</section>
+	</body>
+</html>

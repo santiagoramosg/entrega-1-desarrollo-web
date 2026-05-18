@@ -4,166 +4,17 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<style>
-			:root {
-				--bg: #d9d7d9;
-				--text: #1d201e;
-				--accent: #c9c5cb;
-				--accent2: #baacbd;
-				--accent3: #b48eae;
-				--accent4: #a97f9f;
-				--accent5: #9b6d91;
-				--accent6: #8b5d82;
-				--bar: #000;
-				--soft-purple: #d7c8d9;
-				--soft-pink: #d8bccd;
-				--mist: #e7e3e8;
-				--shadow: #6e6470;
-
-				--dark-accent: #5b4f5d;
-				--deep-purple: #4b3f4f;
-
-				--light-gray: #f1eef2;
-				--silver: #b8b4ba;
-				--rose-gray: #c5b1bc;
-
-				--hover: #c59dbb;
-				--border: #b7afb9;
-
-				--success: #8ca892;
-				--warning: #d1b483;
-				--danger: #b97d86;
-			}
-			* {
-				margin: 0;
-				padding: 0;
-				box-sizing: border-box;
-			}
-			body {
-				font-family: Arial, sans-serif;
-				padding: 30px;
-				background-color: var(--bg);
-				color: var(--text);
-			}
-			header {
-				margin-bottom: 20px;
-				text-align: center;
-				margin: 0 auto 40px;
-			}
-
-			header h1 {
-				font-size: 2.5em;
-				line-height: 1.2;
-			}
-
-			header h2 {
-				font-size: 1.2em;
-				color: var(--accent3);
-				margin-top: 10px;
-			}
-
-			section {
-				margin: 0 auto 20px;
-				padding: 20px;
-				background-color: var(--soft-purple);
-				border-radius: 15px;
-				border: 3px solid var(--accent);
-				color: var(--text);
-				font-size: 1.1em;
-				line-height: 1.6;
-				text-align: justify;
-				text-justify: inter-word;
-			}
-
-			section header {
-				background: var(--accent4);
-				padding: 1em 1.5em;
-				display: flex;
-				align-items: center;
-				gap: 15px;
-				border-radius: 10px 10px 0 0;
-				margin-bottom: 20px;
-			}
-			section h1 {
-				justify-content: center;
-				font-size: 1.8em;
-				margin-bottom: 15px;
-			}
-
-			section h2 {
-				font-size: 1.2em;
-				margin-top: 20px;
-				margin-bottom: 10px;
-			}
-
-			.navbar {
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				position: relative;
-				background: var(--accent);
-				gap: 20px;
-				margin-top: 20px;
-				padding: 20px;
-			}
-
-			li{
-				margin-left: 40px;
-				padding: 10px;
-				font-size: 0.9rem;
-				color: var(--bar);
-			}
-
-			.navbar h1 {
-				text-align: center;
-				margin: 0;
-			}
-
-			.lang-selector {
-				position: absolute;
-				right: 20px;
-				top: 20px;
-				display: flex;
-				flex-direction: column;
-				align-items: flex-end;
-				gap: 8px;
-				text-align: right;
-			}
-
-			.lang-selector label {
-				font-size: 0.9rem;
-				color: var(--bar);
-			}
-
-			.lang-selector select {
-				font-size: 16px;
-				height: 40px;
-				padding: 10px;
-				border: 3px solid var(--accent);
-				border-radius: 15px;
-				background-color: var(--accent2);
-				color: var(--text);
-			}
-			footer {
-				text-align: center;
-				margin-top: 40px;
-				font-size: 0.7em;
-				color: var(--text);
-			}
-			footer p {
-				white-space: pre-wrap;
-			}
-		</style>
+		<link rel="stylesheet" href="styles.css" />
 	</head>
 
 	<body>
 		<script src="idioma.js"></script>
 		<header class="navbar">
-			<h1 data-i18n="bar">
+			<h1 data-i18n="page1.bar">
 				
 			</h1>
 			<div class="lang-selector">
-				<label for="langSelect" data-i18n="language_select"></label>
+				<label for="langSelect" data-i18n="page1.language_select"></label>
 				<select id="langSelect">
 					<option value="" disabled selected>Seleccionar idioma</option>
 					<option value="es">Español</option>
@@ -173,79 +24,79 @@
 		</header>
 
 		<section>
-			<h1 data-i18n="paragraph.p1"></h1>
+			<h1 data-i18n="page1.paragraph.p1"></h1>
 		</section>
 
 		<section>
 			<header>
-				<h1 data-i18n="paragraph.p2"></h1>
+				<h1 data-i18n="page1.paragraph.p2"></h1>
 			</header>
-			<h2 data-i18n="paragraph.p3"></h2>
+			<h2 data-i18n="page1.paragraph.p3"></h2>
 			<p><ul>
-				<li data-i18n="paragraph.p4_1"></li>
-				<li data-i18n="paragraph.p4_2"></li>
-				<li data-i18n="paragraph.p4_3"></li>
-				<li data-i18n="paragraph.p4_4"></li>
-				<li data-i18n="paragraph.p4_5"></li>
-				<li data-i18n="paragraph.p4_6"></li>
+				<li data-i18n="page1.paragraph.p4_1"></li>
+				<li data-i18n="page1.paragraph.p4_2"></li>
+				<li data-i18n="page1.paragraph.p4_3"></li>
+				<li data-i18n="page1.paragraph.p4_4"></li>
+				<li data-i18n="page1.paragraph.p4_5"></li>
+				<li data-i18n="page1.paragraph.p4_6"></li>
 			</ul>
 			</p>
 		</section>
 		<section>
 			<header>
-				<h1 data-i18n="paragraph2.p1"></h1>
+				<h1 data-i18n="page1.paragraph2.p1"></h1>
 			</header>
-			<h2 data-i18n="paragraph2.p2"></h2>
-			<p data-i18n="paragraph2.p2_1"></p>
+			<h2 data-i18n="page1.paragraph2.p2"></h2>
+			<p data-i18n="page1.paragraph2.p2_1"></p>
 			<video controls autoplay muted loop width="480" src="videos/gata.mp4">
 				Tu navegador no soporta el elemento de video.
 			</video>
-			<h2 data-i18n="paragraph2.p3"></h2>
-			<p data-i18n="paragraph2.p3_1"></p>
+			<h2 data-i18n="page1.paragraph2.p3"></h2>
+			<p data-i18n="page1.paragraph2.p3_1"></p>
 			<video controls autoplay muted loop width="480" src="videos/gato.mp4">
 				Tu navegador no soporta el elemento de video.
 			</video>
 		</section>
 		<section>
 			<header>
-				<h1 data-i18n="paragraph4.p1"></h1>
+				<h1 data-i18n="page1.paragraph4.p1"></h1>
 			</header>
-			<p data-i18n="paragraph4.p2"></p>
-			<p data-i18n="paragraph4.p2_author"></p>
-			<p data-i18n="paragraph4.p3"></p>
-			<p data-i18n="paragraph4.p3_author"></p>
+			<p data-i18n="page1.paragraph4.p2"></p>
+			<p data-i18n="page1.paragraph4.p2_author"></p>
+			<p data-i18n="page1.paragraph4.p3"></p>
+			<p data-i18n="page1.paragraph4.p3_author"></p>
 		</section>
 		<section>
 			<header>
-				<h1 data-i18n="paragraph5.p1"></h1>
+				<h1 data-i18n="page1.paragraph5.p1"></h1>
 			</header>
 			<ul>
-				<li data-i18n="paragraph5.p2"></li>
-				<li data-i18n="paragraph5.p3"></li>
-				<li data-i18n="paragraph5.p4"></li>
+				<li data-i18n="page1.paragraph5.p2"></li>
+				<li data-i18n="page1.paragraph5.p3"></li>
+				<li data-i18n="page1.paragraph5.p4"></li>
 			</ul>
 		</section>
 		<header>
 			
-			<h1 data-i18n="title"></h1>
+			<h1 data-i18n="page1.title"></h1>
 
-			<p data-i18n="description"></p>
+			<p data-i18n="page1.description"></p>
 
-			<button data-i18n="button"></button>
+			<button onclick="window.location.href='pagina2.html'" data-i18n="page1.button"></button>
 
 			<nav>
-				<a data-i18n="navbar.home"></a>
-				<a data-i18n="navbar.about"></a>
-				<a data-i18n="navbar.contact"></a>
+				<a data-i18n="page1.navbar.home"></a>
+				<a data-i18n="page1.navbar.about"></a>
+				<a data-i18n="page1.navbar.contact"></a>
 			</nav>
 		</header>
 		
 		<footer>
-			<p data-i18n="navbar.footer"></p>
-			<p data-i18n="paragraph6.p1"></p>
-			<p data-i18n="paragraph6.p2"></p>
-			<p data-i18n="paragraph6.p3"></p>
-			<p data-i18n="paragraph6.p4"></p>
+			<p data-i18n="page1.navbar.footer"></p>
+			<p data-i18n="page1.paragraph6.p1"></p>
+			<p data-i18n="page1.paragraph6.p2"></p>
+			<p data-i18n="page1.paragraph6.p3"></p>
+			<p data-i18n="page1.paragraph6.p4"></p>
 		</footer>
 	</body>
 </html>
