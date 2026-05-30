@@ -114,8 +114,9 @@ li {
 
 .columnas {
   display: flex;
-  gap: 80px;         /* espacio entre columnas */
+  gap: 80px;
   margin-bottom: 30px;
+  align-items: center; /* ← esto alinea verticalmente al centro */
 }
 
 .columna {
