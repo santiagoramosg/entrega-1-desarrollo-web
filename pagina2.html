@@ -7,7 +7,7 @@
 		<title>Document</title>
 	</head>
 
-	<body >
+	<body>
 		<script src="idioma.js"></script>
 		<header class="navbar">
 			<h1 data-i18n="page1.bar"></h1>
@@ -20,9 +20,11 @@
 				</select>
 			</div>
 		</header>
-		<button class="boton-atras" onclick="window.location.href='pagina.html'" 
-		data-i18n="page2.back.p1">
-		</button>
+		<button
+			class="boton-atras"
+			onclick="window.location.href = 'pagina.html'"
+			data-i18n="page2.back.p1"
+		></button>
 		<section class="align-center">
 			<h1 data-i18n="page2.paragraph.p1"></h1>
 			<h2 data-i18n="page2.paragraph.p2"></h2>
@@ -35,16 +37,15 @@
 					<p data-i18n="page2.paragraph.p4"></p>
 					<input class="form" type="text" />
 				</div>
-				
 			</div>
 			<div class="columnas">
 				<div class="columna">
 					<p data-i18n="page2.paragraph.p5"></p>
-					<input class="form" type="text" />
+					<input class="form" type="email" />
 				</div>
 				<div class="columna">
 					<p data-i18n="page2.paragraph.p6"></p>
-					<input class="form" type="text" />
+					<input class="form" type="number" />
 				</div>
 			</div>
 			<h2 data-i18n="page2.paragraph.p7"></h2>
@@ -55,7 +56,7 @@
 				</div>
 				<div class="columna">
 					<p data-i18n="page2.paragraph.p9"></p>
-					<input class="form" type="text" />
+					<input class="form" type="number" />
 				</div>
 				<div class="columna">
 					<p data-i18n="page2.paragraph.p10"></p>
@@ -71,7 +72,6 @@
 					<select id="langSelect">
 						<option value="" disabled selected></option>
 						<option data-i18n="page2.address.p1_1"></option>
-						
 					</select>
 				</div>
 				<div class="columna">
@@ -85,10 +85,10 @@
 				</div>
 			</div>
 			<h2 data-i18n="page2.address.address"></h2>
-			<input class="form text-area"type="text" placeholder="#" />
+			<input class="form text-area" type="text" placeholder="#" />
 		</section>
 		<header>
-		<button class="pg" data-i18n="page2.paragraph.p12"></button>
+			<button class="pg" data-i18n="page2.paragraph.p12"></button>
 		</header>
 	</body>
 </html>
