@@ -32,6 +32,14 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.align-center {
+	text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 body {
 	font-family: Arial, sans-serif;
 	padding: 30px;
@@ -100,6 +108,41 @@ section h2 {
 	padding: 20px;
 }
 
+.form {
+	
+	border-radius: 20px;
+	padding: 5px;
+	font-size: 1.1em;
+	width: 200px;
+}
+
+.form.text-area {
+	width: 400px;
+}
+
+.boton-atras {
+    background-color: var(--accent2);
+    border: 3px solid var(--accent);
+    border-radius: 50%;
+    width: 200px;
+    height: 70px;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: var(--text);
+	margin-bottom: 30px;
+}
+
+button.pg{
+	font-size: 1.7em;
+	width: 150px;
+	height: 50px;
+	border: 3px solid var(--accent);
+	border-radius: 15px;
+	background-color: var(--accent2);
+	color: var(--text);
+	cursor: pointer;
+}
+
 li {
 	margin-left: 40px;
 	padding: 10px;
@@ -159,6 +202,7 @@ li {
 }
 
 .lang-selector select {
+	cursor: pointer;
 	font-size: 16px;
 	height: 40px;
 	padding: 10px;

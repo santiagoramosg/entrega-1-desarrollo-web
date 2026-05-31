@@ -1,14 +1,11 @@
 {
+	"lorem": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+
 	"page1": {
 		"language_select": "Select Language",
 		"bar": "Wizardry academy for cats \nMEW-arts",
-		"title": "Welcome",
-		"description": "This is a page in English.",
 		"button": "sign up",
 		"navbar": {
-			"home": "Home",
-			"about": "About Us",
-			"contact": "Contact",
 			"footer": "all kittens shown on the page are graduates of the MEW-arts cat university\nplease do not try to teach them magic by your own"
 		},
 		"paragraph": {
@@ -62,36 +59,37 @@
 			"p1": "Footer",
 			"p2": "📍 Secret Tower behind the sofa",
 			"p3": "📞 666-MIAU-MAGIC",
-			"p4": "✉ contacto@academiagatuna.com"
+			"p4": "✉ contact@wizardryacademy.com"
 		}
 	},
-  "page2": {
-    "paragraph": {
-      "p1": "Enrollment form",
-      "p2": "Owner's personal information",
-      "p3": "First name",
-      "p4": "Last name",
-      "p5": "Email address",
-      "p6":" Phone number",
-      "p7":" Cat's information",
-      "p8":" Cat's name",
-      "p9":" Cat's age",
-      "p10":"Cat's breed",
-      "p11":"Why do you want to enroll your cat in the academy?",
-      "p12":"Submit"
-    },
-    "address":{
-      "p1":"Department",
-      "p2":"City",
-      "p3":"Main Street",
-      "p3_1":"Number",
-      "p3_2":"Complement",
-      "p3_3":"Bis",
-      "p3_4":"Plaque",
-      "p4":"Selected Address",
-      "p5":"Clear",
-      "p6":"Submit Address"
-    }
-  }
-
+	"page2": {
+		"back": {
+			"p1": "⤺ go back"
+		},
+		"paragraph": {
+			"p1": "Enrollment form",
+			"p2": "Owner's personal information",
+			"p3": "First name",
+			"p4": "Last name",
+			"p5": "Email address",
+			"p6": " Phone number",
+			"p7": " Cat's information",
+			"p8": " Cat's name",
+			"p9": " Cat's age",
+			"p10": "Cat's breed",
+			"p11": "Why do you want to enroll your cat in the academy?",
+			"p12": "Submit"
+		},
+		"address": {
+			"address": "Address",
+			"p1": "Country of residence",
+			"p1_1": "United States",
+			"p2": "City of residence",
+			"p2_1": "New York",
+			"p2_2": "Los Angeles",
+			"p2_3": "Chicago",
+			"p3": "Clear",
+			"p4": "Submit Address"
+		}
+	}
 }
