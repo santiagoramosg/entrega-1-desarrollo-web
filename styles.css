@@ -1,31 +1,10 @@
 :root {
-	--bg: #d9d7d9;
-	--text: #1d201e;
-	--accent: #c9c5cb;
-	--accent2: #baacbd;
-	--accent3: #b48eae;
-	--accent4: #a97f9f;
-	--accent5: #9b6d91;
-	--accent6: #8b5d82;
-	--bar: #000;
-	--soft-purple: #d7c8d9;
-	--soft-pink: #d8bccd;
-	--mist: #e7e3e8;
-	--shadow: #6e6470;
-
-	--dark-accent: #5b4f5d;
-	--deep-purple: #4b3f4f;
-
-	--light-gray: #f1eef2;
-	--silver: #b8b4ba;
-	--rose-gray: #c5b1bc;
-
-	--hover: #c59dbb;
-	--border: #b7afb9;
-
-	--success: #8ca892;
-	--warning: #d1b483;
-	--danger: #b97d86;
+	--bg: #edf2fbff;
+	--text: #000000;
+	--accent: #d7e3fcff;
+	--accent2: #c1d3feff;
+	--accent4: #abc4ffff;
+	--soft-purple: rgb(202, 213, 237);
 }
 * {
 	margin: 0;

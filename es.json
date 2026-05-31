@@ -6,7 +6,7 @@
 		"language_select": "Seleccionar idioma",
 		"button": "inscribete",
 		"navbar": {
-			"footer": "Todos los gatitos mostrados en la página son graduados de la universidad de los gatos MEW-arts\npor favor no intentes enseñarles magia por tu cuenta"
+			"footer": "Todos los gatitos mostrados en la página son graduados de la universidad de gatos MEW-arts\npor favor no intentes enseñarles magia por tu cuenta"
 		},
 		"paragraph": {
 			"p1": "Bienvenido a la Academia Arcana Felina La primera escuela de magia exclusivamente para gatos con habilidades sospechosas.",
@@ -56,7 +56,6 @@
 			"p4": "Tener intenciones dudosas"
 		},
 		"paragraph6": {
-			"p1": "Pie de página",
 			"p2": "📍 Torre Secreta detrás del sofá",
 			"p3": "📞 666-MIAU-MAGIA",
 			"p4": "✉ contacto@academiamagica.com"
