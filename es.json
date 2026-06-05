@@ -40,7 +40,7 @@
 			"p3_2": "Ritual de las 4 AM",
 			"p3_3": "Invocación de demonios debajo de la cama",
 			"p4": "Alquimia de comida",
-			"p4_1": "Transforma cualquier alimento humano en \"comida para gato\"."
+			"p4_1": "Transformar cualquier alimento humano en \"comida para gato\"."
 		},
 		"paragraph4": {
 			"p1": "Testimonios",
@@ -92,6 +92,18 @@
 			"p2_3": "Cali",
 			"p3": "limpiar",
 			"p4": "Enviar dirección"
+		},
+		"secret":{
+			"p1": "Nombre de mago de el gato \n*secreto confidencial* ",
+			"p2": "Esta seguro que desea instruir a su gato en la magia?",
+			"p2_1": "Si",
+			"p2_2": "No",
+			"p3": "Que tipos de magia desea enseñarle a su gato?",
+			"p3_1": "Desaparición de objetos",
+			"p3_2":"Invocaciónes",
+			"p3_3":"Control mental",
+			"p3_4": "Otros"
+			
 		}
 	}
 }

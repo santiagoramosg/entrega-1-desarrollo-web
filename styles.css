@@ -88,7 +88,6 @@ section h2 {
 }
 
 .form {
-	
 	border-radius: 20px;
 	padding: 5px;
 	font-size: 1.1em;
@@ -121,6 +120,25 @@ button.pg{
 	color: var(--text);
 	cursor: pointer;
 }
+
+div.check{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 10px;
+	
+}
+
+
+input.pg{
+	font-size: 12em;
+	width: 30px;
+	height: 30px;
+	accent-color: var(--accent4);
+	cursor: pointer;
+}
+
 
 li {
 	margin-left: 40px;
