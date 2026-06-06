@@ -3,13 +3,15 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="MEW-arts" />
+		<meta name="description" content="Bienvenido a MEW-arts, la primera academia para gatos magicos" />
 		<link rel="stylesheet" href="styles.css" />
-		<link rel="stylesheet" href="st2.css" />
-		<title>Document</title>
+		<title>MEW-arts</title>
 	</head>
 
 	<body>
 		<script src="idioma.js"></script>
+		<script src="validacion_form.js"></script>
 		<header class="navbar">
 			<h1 data-i18n="page1.bar"></h1>
 			<div class="lang-selector">
@@ -26,111 +28,149 @@
 			onclick="window.location.href = 'pagina.html'"
 			data-i18n="page2.back.p1"
 		></button>
-		<section class="align-center">
-			<h1 data-i18n="page2.paragraph.p1"></h1>
-			<h2 data-i18n="page2.paragraph.p2"></h2>
-			<div class="columnas">
-				<div class="columna">
-					<p data-i18n="page2.paragraph.p3"></p>
-					<input class="form" type="text" />
+		<section>
+			<form id="contactForm" class="align-center">
+				<h1 data-i18n="page2.paragraph.p1"></h1>
+				<h2 data-i18n="page2.paragraph.p2"></h2>
+				<div class="columnas">
+					<div class="columna">
+						<p data-i18n="page2.paragraph.p3"></p>
+						<input id="field1" class="form" type="text" />
+					</div>
+					<div class="columna">
+						<p data-i18n="page2.paragraph.p4"></p>
+						<input id="field2" class="form" type="text" />
+					</div>
 				</div>
-				<div class="columna">
-					<p data-i18n="page2.paragraph.p4"></p>
-					<input class="form" type="text" />
+				<div class="columnas">
+					<div class="columna">
+						<p data-i18n="page2.paragraph.p5"></p>
+						<input id="field3" class="form" type="email" />
+					</div>
+					<div class="columna">
+						<p data-i18n="page2.paragraph.p6"></p>
+						<input id="field4" class="form" type="number" />
+					</div>
 				</div>
-			</div>
-			<div class="columnas">
-				<div class="columna">
-					<p data-i18n="page2.paragraph.p5"></p>
-					<input class="form" type="email" />
+				<h2 data-i18n="page2.paragraph.p7"></h2>
+				<div class="columnas">
+					<div class="columna">
+						<p data-i18n="page2.paragraph.p8"></p>
+						<input id="field5" class="form" type="text" />
+					</div>
+					<div class="columna">
+						<p data-i18n="page2.paragraph.p9"></p>
+						<input id="field6" class="form" type="number" />
+					</div>
+					<div class="columna">
+						<p data-i18n="page2.paragraph.p10"></p>
+						<input id="field7" class="form" type="text" list="razas" />
+						<datalist id="razas">
+							<option value="Siamés"></option>
+							<option value="Persa"></option>
+							<option value="Maine Coon"></option>
+							<option value="Criollo"></option>
+							<option value="Ragdoll"></option>
+						</datalist>
+					</div>
 				</div>
-				<div class="columna">
-					<p data-i18n="page2.paragraph.p6"></p>
-					<input class="form" type="number" />
+				<div class="columnas">
+					<div class="columna">
+						<p data-i18n="page2.paragraph.p13"></p>
+						<input
+							id="field_range"
+							class="form"
+							type="range"
+							min="0"
+							max="10"
+							value="5"
+						/>
+						<div class="range-value-container">
+							<span id="field_range_value">5</span>
+						</div>
+					</div>
+					<div class="columna">
+						<p data-i18n="page2.paragraph.p14"></p>
+						<input id="field_date" class="form" type="date" />
+					</div>
 				</div>
-			</div>
-			<h2 data-i18n="page2.paragraph.p7"></h2>
-			<div class="columnas">
-				<div class="columna">
-					<p data-i18n="page2.paragraph.p8"></p>
-					<input class="form" type="text" />
+				<h2 data-i18n="page2.paragraph.p11"></h2>
+				<textarea
+					id="field8"
+					class="form text-area"
+					rows="4"
+					cols="70"
+				></textarea>
+				<br />
+				<div class="columnas">
+					<div class="columna">
+						<label data-i18n="page2.address.p1"></label>
+						<select id="field9" class="form">
+							<option value="" disabled selected></option>
+							<option value="Colombia" data-i18n="page2.address.p1_1"></option>
+						</select>
+					</div>
+					<div class="columna">
+						<label data-i18n="page2.address.p2"></label>
+						<select id="field10" class="form">
+							<option value="" disabled selected></option>
+							<option value="Medellín" data-i18n="page2.address.p2_1"></option>
+							<option value="Bogotá" data-i18n="page2.address.p2_2"></option>
+							<option value="Cali" data-i18n="page2.address.p2_3"></option>
+						</select>
+					</div>
 				</div>
-				<div class="columna">
-					<p data-i18n="page2.paragraph.p9"></p>
-					<input class="form" type="number" />
-				</div>
-				<div class="columna">
-					<p data-i18n="page2.paragraph.p10"></p>
-					<input class="form" type="text" />
-				</div>
-			</div>
-			<h2 data-i18n="page2.paragraph.p11"></h2>
-			<textarea class="form text-area" rows="4" cols="70"></textarea>
-			<br>
-			<div class="columnas">
-				<div class="columna">
-					<label data-i18n="page2.address.p1"></label>
-					<select id="langSelect">
-						<option value="" disabled selected></option>
-						<option data-i18n="page2.address.p1_1"></option>
-					</select>
-				</div>
-				<div class="columna">
-					<label data-i18n="page2.address.p2"></label>
-					<select id="langSelect">
-						<option value="" disabled selected></option>
-						<option data-i18n="page2.address.p2_1"></option>
-						<option data-i18n="page2.address.p2_2"></option>
-						<option data-i18n="page2.address.p2_3"></option>
-					</select>
-				</div>
-			</div>
-			<h2 data-i18n="page2.address.address"></h2>
-			<input class="form text-area" type="text" placeholder="#" />
+				<h2 data-i18n="page2.address.address"></h2>
+				<input
+					id="field11"
+					class="form text-area"
+					type="text"
+					placeholder="#"
+				/>
 
-			<h2 data-i18n="page2.secret.p1"></h2>
-			<input class="form text-area" type="password"/>
-			<h2 data-i18n="page2.secret.p2"></h2>
-			<div class="columnas">
-				<div class="columna">
-					<label data-i18n="page2.secret.p2_1">
-					</label>
-					<input class="pg" type="radio" name="check">
+				<h2 data-i18n="page2.secret.p1"></h2>
+				<input id="field12" class="form text-area" type="password" />
+				<h2 data-i18n="page2.secret.p2"></h2>
+				<div class="columnas">
+					<div class="columna">
+						<label for="field13_1" data-i18n="page2.secret.p2_1"> </label>
+						<input id="field13_1" class="pg" type="radio" name="esta_seguro" value="Sí" />
+					</div>
+					<div class="columna">
+						<label for="field13_2" data-i18n="page2.secret.p2_2"> </label>
+						<input id="field13_2" class="pg" type="radio" name="esta_seguro" value="No" />
+					</div>
 				</div>
-				<div class="columna">
-					<label data-i18n="page2.secret.p2_2" >
-					</label>
-					<input class="pg" type="radio" name="check">
+				<h2 data-i18n="page2.secret.p3"></h2>
+
+				<div class="check">
+					<div>
+						<input id="field14_1" class="pg" type="checkbox" />
+						<label data-i18n="page2.secret.p3_1"></label>
+					</div>
+					<div>
+						<input id="field14_2" class="pg" type="checkbox" />
+						<label data-i18n="page2.secret.p3_2"></label>
+					</div>
+					<div>
+						<input id="field14_3" class="pg" type="checkbox" />
+						<label data-i18n="page2.secret.p3_3"></label>
+					</div>
+					<div>
+						<input id="field14_4" class="pg" type="checkbox" />
+						<label data-i18n="page2.secret.p3_4"></label>
+						<textarea id="field15" class="form"></textarea>
+					</div>
 				</div>
-
-			</div>
-			
-			<h2 data-i18n="page2.secret.p3"></h2>
-			
-			<div class="check">
-			<div>
-				<input class="pg" type="checkbox">
-				<label data-i18n="page2.secret.p3_1"></label>
-			</div>
-			<div >
-				<input class="pg" type="checkbox">
-				<label data-i18n="page2.secret.p3_2"></label>
-			</div>
-			<div >
-				<input class="pg" type="checkbox">
-				<label data-i18n="page2.secret.p3_3"></label>
-			</div>
-			<div >
-				<input class="pg" type="checkbox">
-				<label data-i18n="page2.secret.p3_4"></label>
-				<textarea id="otros" class="form"></textarea>
-			</div>
-
-			</div>
-
+			</form>
 		</section>
 		<header>
-			<button class="pg" data-i18n="page2.paragraph.p12"></button>
+			<button
+				type="button"
+				class="pg"
+				onclick="downloadFormData()"
+				data-i18n="page2.paragraph.p12"
+			></button>
 		</header>
 	</body>
 </html>

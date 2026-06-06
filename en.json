@@ -71,13 +71,15 @@
 			"p3": "First name",
 			"p4": "Last name",
 			"p5": "Email address",
-			"p6": " Phone number",
-			"p7": " Cat's information",
-			"p8": " Cat's name",
-			"p9": " Cat's age",
+			"p6": "Phone number",
+			"p7": "Cat's information",
+			"p8": "Cat's name",
+			"p9": "Cat's age",
 			"p10": "Cat's breed",
 			"p11": "Why do you want to enroll your cat in the academy?",
-			"p12": "Submit"
+			"p12": "Submit",
+			"p13": "Cat's magical level",
+			"p14": "Cat's birth date"
 		},
 		"address": {
 			"address": "Address",
@@ -86,9 +88,27 @@
 			"p2": "City of residence",
 			"p2_1": "New York",
 			"p2_2": "Los Angeles",
-			"p2_3": "Chicago",
-			"p3": "Clear",
-			"p4": "Submit Address"
+			"p2_3": "Chicago"
+		},
+		"secret": {
+			"p1": "Cat's wizard name\n*confidential secret*",
+			"p2": "Are you sure you want to instruct your cat in magic?",
+			"p2_1": "Yes",
+			"p2_2": "No",
+			"p3": "What types of magic do you want to teach your cat?",
+			"p3_1": "Disappearance of objects",
+			"p3_2": "Summoning",
+			"p3_3": "Mind control",
+			"p3_4": "Other"
 		}
+	},
+	"about": {
+		"p1": "about",
+		"p2": "MEW-arts — Wizardry Academy for Cats",
+		"p3": "version 1.0",
+		"p4": "software revision 2024-06-01",
+		"p5": "CAS version 2.1.3",
+		"p6": "Developed by cat lovers",
+		"p7": "2026 MEW-arts — All rights reserved"
 	}
 }
