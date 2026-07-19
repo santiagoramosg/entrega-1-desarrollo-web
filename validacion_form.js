@@ -17,10 +17,14 @@ function validarFormulario() {
 		valido = false;
 	}
 
-	["field1", "field2", "field5", "field7", "field11"].forEach(id => {
+	["field1", "field2", "field5", "field7"].forEach(id => {
 		if (!document.getElementById(id)?.value.trim())
 			error(id, "Campo obligatorio.");
 	});
+
+	const dir = document.getElementById("field11")?.value.trim();
+	if (!dir) error("field11", "Campo obligatorio.");
+	else if (dir.length < 5) error("field11", "Dirección muy corta.");
 
 	const email = document.getElementById("field3")?.value.trim();
 	if (!email) error("field3", "Campo obligatorio.");
@@ -41,6 +45,13 @@ function validarFormulario() {
 
 	const fechaGato = document.getElementById("field_date")?.value;
 	if (!fechaGato) error("field_date", "Selecciona fecha de nacimiento.");
+	else {
+		const fechaNac = new Date(fechaGato);
+		const hoy = new Date();
+		if (fechaNac > hoy) error("field_date", "La fecha no puede ser futura.");
+		else if (hoy.getFullYear() - fechaNac.getFullYear() > 30)
+			error("field_date", "La fecha es demasiado antigua.");
+	}
 
 	if (!document.getElementById("field8")?.value.trim())
 		error("field8", "Campo obligatorio.");
@@ -60,6 +71,8 @@ function validarFormulario() {
 
 	if (document.getElementById("field14_4")?.checked && !document.getElementById("field15")?.value.trim())
 		error("field15", "Describe la magia extra.");
+	else if (document.getElementById("field14_4")?.checked && document.getElementById("field15")?.value.trim().length < 5)
+		error("field15", "Mínimo 5 caracteres para describir la magia.");
 
 	return valido;
 }
